@@ -49,12 +49,13 @@ Data classificator value is described by following table:
 
 To run script use following syntax in Python console <br />
 Script requires 4 arguments, below table contains argument descriptions: <br />
+
 | Argument name | Argument description | Example value |
 | ------------- | ------------- | ------------- |
-| $value1  | Engine capacity  | 2.0  |
-| $value2  | Horsepower  | 180  |
-| $value3  | Desired fuel consumption  | 8.5  |
-| $value4  | Fuel type  | 1  |
+| `$value1`  | Engine capacity  | 2.0  |
+| `$value2`  | Horsepower  | 180  |
+| `$value3`  | Desired fuel consumption  | 8.5  |
+| `$value4`  | Fuel type  | 1  |
 ```
 In Spyder IDE (Anaconda):
 runfile('disk:\path\to\script\JW_SVM.py', args='-l $value,$value2,$value3,$value4', wdir='disk:\path\to\script\')
