@@ -20,6 +20,8 @@ fuel consumption - float value (example 8.8)
 fuel type - int value (example 1), there are available only two values (1 and 2). 1 is for gas and 2 is for diesel.
 data classificator - int value (example 2), see Data classification description section.
 ```
+Data is extracted from https://www.autocentrum.pl/spalanie/
+
 #### Data classification description
 
 Data classificator value is described by following table:
